@@ -1,0 +1,11 @@
+pip freeze > requirements.txt -> To get requirement for particular directory
+
+python -m flask run -> to run the flask project
+
+sudo apt-get install python3-venv    
+python3 -m venv env
+
+Now change the python interpreter to "(venv)"
+
+python -m pip install --upgrade pip -> to upgrade the pip
+python -m pip install flask ->run the flask project
